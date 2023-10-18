@@ -72,6 +72,20 @@ input:hover {
     padding: 8px 20px;
     margin-bottom: 4px;
 }
+.btn.logout{
+    padding: 8px 20px;
+    margin-bottom: 4px;
+    border: 1px solid #ff0000;
+    background: #ff0000;
+}
+.btn.logout:hover {
+    letter-spacing: 2px;
+    transition: letter-spacing 0.3s ease;
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    border-radius: 12px;
+    color: #ff0000;
+}
 .btn{
     border-radius: 10px;
     box-shadow: 0 1px 1px;
@@ -160,6 +174,9 @@ input:hover {
     text-align: center;
     margin: 0;
 }
+.card.logout{
+    margin-top: 10px;
+}
 
 .col-md-4 {
     height: 100%;
@@ -169,7 +186,11 @@ input:hover {
     .card {
         margin-top: 20px;
     }
-
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        color: #27b737;
+        border-color: #27b737 #27b737 #27b737;
+    }
     .card-img-top {
         margin-top: 0;
     }

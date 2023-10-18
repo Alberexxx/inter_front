@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
         id="bootstrap-css">
+
     <link rel="stylesheet" href="../../public/css/profile/style.css">
     <title>Detalhes do Perfil</title>
 </head>
@@ -14,12 +16,15 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-4">
+
                 <div class="card">
                     <img src="http://placehold.it/180x180" class="card-img-top rounded-circle" alt="Foto de Perfil">
                     <div class="card-body text-center" id="card-botton-img">
-                        <button class="btn">Alterar Foto</button>
+                        <button class="btn"><i class="fa fa-camera" style="font-size:20px;"></i><br>
+                            Alterar Foto</button>
                         <h4 class="card-title">Usuário</h4>
                         <p class="card-text">Usuário Nível Prata</p>
+
                     </div>
                 </div>
             </div>
@@ -39,8 +44,8 @@
                             role="tab" aria-controls="connectedServices" aria-selected="false">Serviços Conectados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pedidos-tab" data-toggle="tab" href="https://meuspedidos.com"
-                            role="tab" aria-controls="connectedServices" aria-selected="false">Meus Pedidos</a>
+                        <a class="nav-link" id="pedidos-tab" data-toggle="tab" href="https://meuspedidos.com" role="tab"
+                            aria-controls="connectedServices" aria-selected="false">Meus Pedidos</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
@@ -66,6 +71,7 @@
                     </div>
                     <div class="tab-pane fade show active" id="conta" role="tabpanel"
                         aria-labelledby="connectedServices-tab">
+
                         <div class="card mt-3">
                             <div class="card-body">
                                 <h5 class="card-title">Data de Nascimento</h5>
@@ -76,7 +82,7 @@
                             <div class="card-body">
                                 <p class="card-text">Seu E-mail</p>
                                 <p class="card-text" id="meu-email">meuemail@gmail.com</p>
-                                <form action="" method="post">
+                                <form action="#" method="post">
                                     <input type="text" name="#" id="#" placeholder="Digite seu novo e-mail">
                                     <button class="btn send">Alterar E-mail</button>
                                 </form>
@@ -85,12 +91,16 @@
                         <div class="card mt-3">
                             <div class="card-body">
                                 <p class="card-text">alguma coisa</p>
-                                <p class="card-text" id="meu-email">meuemail@gmail.com</p>
-                                <form action="" method="post">
-                                    <input type="text" name="" id="" placeholder="Digite seu novo e-mail">
-                                    <button class="btn send">Alterar E-mail</button>
+                                <p class="card-text" id="meu-email">alguma coisa</p>
+                                <form action="#" method="post">
+                                    <input type="text" name="" id="" placeholder="alguma coisa">
+                                    <button class="btn send">Alterar alguma coisa</button>
                                 </form>
                             </div>
+                        </div>
+                        <div class="card mt-3">
+                            <button class="btn logout"><i class="fa fa-sign-out" style="font-size:20px"></i>
+                                <br>Sair desta conta</button>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="connectedServices" role="tabpanel"
